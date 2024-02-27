@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Monofett&family=Protest+Guerrilla&family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="html">HTML</section>
+        <section class="css">CSS</section>
+        <section class="js">JS</section>
+    </main>
+    <div class="space">
+        <div class="phone">
+            <div class="screen">
+                <div class="notch"></div>
+                <div class="homebar"></div>
+                <p class="left">Movistar</p>
+                <p class="right">LTE</p>
+                <p class="rightbatt" id="batt">48%</p>
+                <p class="time" id="time"></p>
+                <div class="app">
+                    <div class="results">
+                        <p class="total" id="screen"></p>
+                    </div>
+                    <div class="spacecalc">
+                        <div class="container">
+                            <div class="row">
+                                <button class="cell black" onclick="seven()">7</button>
+                                <button class="cell black" onclick="eight()">8</button>
+                                <button class="cell black" onclick="nine()">9</button>
+                                <button class="cell orange" onclick="divide()">÷</button>
+                            </div>
+                            <div class="row">
+                                <button class="cell black" onclick="four()">4</button>
+                                <button class="cell black" onclick="five()">5</button>
+                                <button class="cell black" onclick="six()">6</button>
+                                <button class="cell orange" onclick="multiply()">x</button>
+                            </div>
+                            <div class="row">
+                                <button class="cell black" onclick="one()">1</button>
+                                <button class="cell black" onclick="two()">2</button>
+                                <button class="cell black" onclick="three()">3</button>
+                                <button class="cell orange" onclick="rest()">-</button>
+                            </div>
+                            <div class="row">
+                                <button class="cell large black" onclick="zero()">0</button>
+                                <button class="cell black" onclick="comma()">,</button>
+                                <button class="cell orange" onclick="sum()">+</button>
+                            </div>
+                            <div class="row">
+                                <button class="cell largefont orange" onclick="equal()">=</button>
+                            </div>
+                          </div>
+                    </div>
+                      
+                </div>
+            </div>
+            <div class="elements">                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

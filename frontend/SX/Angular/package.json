@@ -1,0 +1,13 @@
+{
+    "name": "angularjs-chat",
+    "version": "1.0.0",
+    "description": "A simple chat application using AngularJS and SockJS",
+    "main": "node-server/app.js",
+    "scripts": {
+      "start": "node node-server/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "sockjs": "^0.3.21"
+    }
+  }

@@ -1,0 +1,209 @@
+*{
+    background-color: rgb(151, 143, 170);
+    margin: 0;
+}
+body{
+    max-height: 80vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0 0 50% 50%;
+    border: 2px solid white;
+    border-top: black;
+    overflow: hidden;
+}
+main section{
+    transition: 0.2s;
+    font-family: 'Comfortaa',sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 15px 0;
+    box-shadow: 0 0 10px white;
+}
+section:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 20px white;
+}
+
+.html{
+    background-color: #E96228;
+    
+}
+.css{
+    background-color:#A1BFD6;
+}
+.js{
+    background-color: rgb(241, 212, 22);
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.phone{
+    background-color: #171717;
+    height: 600px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 12px;
+    box-shadow: 0 0 10px black;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 600px;
+    filter: blur(0px);
+    background:linear-gradient(to top, rgb(109, 44, 150),rgb(238, 112, 58));
+}
+.notch{
+    position: fixed;
+    background-color: #171717;
+    margin-top: px;
+    height: 22px;
+    width: 160px;
+    border-radius: 0 0 12px 12px;
+}
+.homebar{
+    padding: 1px;
+    transition: 0.3s;
+    position: absolute;
+    background-color: rgb(190, 192, 195);
+    height: 1%;
+    bottom:1%;
+    border-radius: 30px;
+    width: 40%;
+    
+}
+.homebar:hover{
+    transition: 0.3s;
+    position: fixed;
+    height: 1%;
+    bottom:1%;
+    border-radius: 30px;
+    width: 50%;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+}
+.screen p{
+    background-color: transparent;
+    font-size: 13px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 500;
+    display: inline;
+}
+.right{
+    position: fixed;
+    margin: 4px 45px 0 0px;
+    right: 0px;
+}
+.rightbatt{
+    position: fixed;
+    margin: 4px 12px 0 0px;
+    right: 0px;
+}
+.left{
+    position: fixed;
+    margin: 4px 0px 0 12px;
+    left: 0px;
+}
+.screen .time{
+    color: rgb(0, 0, 0);
+    position: fixed;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    top: 6%;
+}
+.app .results{
+    z-index: 1;
+    margin-top: 20px;
+    position: fixed;
+    background-color: black;
+    width: 90%;
+    max-height: 10%;
+    height: 100%;
+    padding: 5px;
+    top: 10%;
+    border-radius: 10px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+.results .total{
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 500;
+    margin: 0 5px 0 0;
+}
+.spacecalc{
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    top: 15%;
+    bottom: 32%;
+}
+.container {
+    margin-top: 80px;
+    background-color: #ffffff;
+  }
+  
+.row {
+    background-color: transparent;
+    display: flex;
+}
+  
+.cell {
+    transition: 0.2s;
+    flex: 1;
+    border-radius: 8px;
+    margin: 10px;
+    border: 0px solid #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.large{
+    padding-right: 100px;
+}
+  
+.cell:hover {
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+.black{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.orange{
+    background-color: rgb(255, 132, 0);
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+  
+
