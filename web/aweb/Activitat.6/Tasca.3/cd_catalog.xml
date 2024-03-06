@@ -1,0 +1,11 @@
+<CDs>
+  <CD>
+    <Artist>Bob Dylan</Artist>
+    <Title>Empire Burlesque</Title>
+    <Country>USA</Country>
+    <Label>Columbia</Label>
+    <Price>10.90</Price>
+    <Year>1985</Year>
+  </CD>
+  <!-- More CD entries go here -->
+</CDs>
